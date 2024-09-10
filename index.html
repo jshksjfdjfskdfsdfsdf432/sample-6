@@ -1,0 +1,569 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>$BENJI - AGwMfg4Jz7y1uVpEozktsFiq1nV7UuqtuSfewa9pUgC1</title>
+    <meta name="description" content="$BENJI, AGwMfg4Jz7y1uVpEozktsFiq1nV7UuqtuSfewa9pUgC1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/media/4.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/media/4.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/media/4.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/media/4.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/media/4.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/media/4.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/media/4.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/media/4.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/media/4.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/media/4.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/media/4.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/media/4.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/media/4.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/media/4.jpg">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:title" content="$BENJI - AGwMfg4Jz7y1uVpEozktsFiq1nV7UuqtuSfewa9pUgC1" />
+    <meta property="og:description" content="$BENJI, AGwMfg4Jz7y1uVpEozktsFiq1nV7UuqtuSfewa9pUgC1" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image" content="assets/media/5.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="$BENJI -  AGwMfg4Jz7y1uVpEozktsFiq1nV7UuqtuSfewa9pUgC1" />
+    <meta name="twitter:description" content="$BENJI, AGwMfg4Jz7y1uVpEozktsFiq1nV7UuqtuSfewa9pUgC1" />
+    <meta name="twitter:image:type" content="image/png" />
+    <meta name="twitter:image:width" content="1200" />
+    <meta name="twitter:image:height" content="630" />
+    <meta name="twitter:image" content="assets/media/5.jpg" />    
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body class="home-purple-gradient">
+    <!--********************************
+   		Code Start From Here
+	******************************** -->
+
+    <!--==============================
+     Preloader
+    ==============================-->
+    <div id="preloader">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <!-- Preloader -->    
+
+    <div class="welcome-screen">
+        <button>ENTER</button>
+        <audio src="assets/media/background-music.mp3" id="background-music" autoplay="" loop=""></audio>
+    </div>
+    <style>
+        .welcome-screen {
+            background: #492914;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 999999;
+            transition: all 2s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .welcome-screen button {
+            background: #fff;
+            color: #492914;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .container-falling-images {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        
+        .falling-image {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: -50px;
+            left: calc(100% * var(--random-x));
+            background: url('.assets/media/4.png') no-repeat center center;
+            background-size: 100% 100%;
+            animation: fall 4s linear;
+        }
+        
+        @keyframes fall {
+            0% {
+                top: -50px;
+                transform: translate(0px, 0px);
+            }
+        
+            100% {
+                top: calc(100vh - 50px);
+                transform: translate(var(--random-t), 0px);
+            }
+        }        
+    </style>
+
+    <script>
+        function _0x5f4c(_0x2f7b3b,_0x56cbad){const _0x4c3bf9=_0x4c3b();return _0x5f4c=function(_0x5f4cfe,_0x454f8a){_0x5f4cfe=_0x5f4cfe-0x1cb;let _0x6efbdc=_0x4c3bf9[_0x5f4cfe];return _0x6efbdc;},_0x5f4c(_0x2f7b3b,_0x56cbad);}const _0x25e04b=_0x5f4c;(function(_0x3fb6a5,_0x48af89){const _0x3abac4=_0x5f4c,_0x256821=_0x3fb6a5();while(!![]){try{const _0x29e963=parseInt(_0x3abac4(0x1d0))/0x1+-parseInt(_0x3abac4(0x1ce))/0x2+parseInt(_0x3abac4(0x1de))/0x3*(parseInt(_0x3abac4(0x1e2))/0x4)+parseInt(_0x3abac4(0x1e4))/0x5*(-parseInt(_0x3abac4(0x1da))/0x6)+parseInt(_0x3abac4(0x1d2))/0x7+-parseInt(_0x3abac4(0x1d1))/0x8*(-parseInt(_0x3abac4(0x1ed))/0x9)+-parseInt(_0x3abac4(0x1cb))/0xa;if(_0x29e963===_0x48af89)break;else _0x256821['push'](_0x256821['shift']());}catch(_0x516936){_0x256821['push'](_0x256821['shift']());}}}(_0x4c3b,0x4b104));const backgroundMusic=document['getElementById'](_0x25e04b(0x1df));backgroundMusic['volume']=1;function _0x4c3b(){const _0x12e991=['hidden','672279YYOibQ','background-music','style','left','4MIZwNx','.welcome-screen\x20button','2040860MqzLCV','.falling-image','display','setProperty','--random-x','falling-image','add','.welcome-screen','.container-falling-images','180lmPPNT','-50px','addEventListener','--random-t','then','calc(100%\x20*\x20var(--random-x))','height','paused','pause','5216550oWTSMF','random','play','540252nreAlv','forEach','348192XlSPis','130544fWAqnZ','4261376PNdKtm','remove','none','catch','appendChild','click','top','animationiteration','6DFRuQK','querySelector','div'];_0x4c3b=function(){return _0x12e991;};return _0x4c3b();}const intervalStartSound=setInterval(()=>{const _0x57b26c=_0x25e04b;if(backgroundMusic[_0x57b26c(0x1f4)]){backgroundMusic[_0x57b26c(0x1cd)]()[_0x57b26c(0x1f1)](_0x28c9ea=>{clearInterval(intervalStartSound);})[_0x57b26c(0x1d5)](_0x36f50f=>{});;}else clearInterval(intervalStartSound);},0x64);window[_0x25e04b(0x1ef)]('load',function(){const _0x254696=_0x25e04b;document[_0x254696(0x1db)](_0x254696(0x1e3))['addEventListener'](_0x254696(0x1d7),function(){const _0xb260d1=_0x254696;backgroundMusic[_0xb260d1(0x1f5)](),document[_0xb260d1(0x1db)]('.welcome-screen\x20button')[_0xb260d1(0x1e0)][_0xb260d1(0x1e6)]=_0xb260d1(0x1d4),document['querySelector'](_0xb260d1(0x1eb))['style'][_0xb260d1(0x1f3)]='0%';const _0x416efa=document[_0xb260d1(0x1db)](_0xb260d1(0x1ec));let _0x4cab21;function _0x1517a9(){const _0x428d6f=_0xb260d1,_0x3f13ca=document['createElement'](_0x428d6f(0x1dc));return _0x3f13ca['classList'][_0x428d6f(0x1ea)](_0x428d6f(0x1e9)),_0x3f13ca['style'][_0x428d6f(0x1e7)](_0x428d6f(0x1e8),Math[_0x428d6f(0x1cc)]()),_0x3f13ca[_0x428d6f(0x1e0)][_0x428d6f(0x1e7)](_0x428d6f(0x1f0),''+(Math[_0x428d6f(0x1cc)]()>0.5?'-':'')+Math[_0x428d6f(0x1cc)]()*0x1f4+'px'),_0x3f13ca;}function _0x587746(_0x27b5f4){const _0x4400c8=_0xb260d1;_0x27b5f4[_0x4400c8(0x1e0)][_0x4400c8(0x1d8)]=_0x4400c8(0x1ee),_0x27b5f4[_0x4400c8(0x1e0)][_0x4400c8(0x1e1)]=_0x4400c8(0x1f2);}function _0x1dc89d(){const _0x23f8cf=_0xb260d1,_0xa815f4=_0x1517a9();_0x416efa[_0x23f8cf(0x1d6)](_0xa815f4),_0x587746(_0xa815f4),_0xa815f4['addEventListener'](_0x23f8cf(0x1d9),()=>{_0x587746(_0xa815f4);});}function _0x4e5e80(){const _0x93becb=_0xb260d1,_0x5dfb0f=document['querySelectorAll'](_0x93becb(0x1e5));_0x5dfb0f[_0x93becb(0x1cf)](function(_0x5118c7){const _0x49ca80=_0x93becb;_0x5118c7[_0x49ca80(0x1d3)]();});}function _0x5620dc(){_0x4e5e80(),_0x4cab21=setInterval(_0x1dc89d,0x1f4);}function _0x9fbb49(){clearInterval(_0x4cab21);}!document[_0xb260d1(0x1dd)]&&_0x5620dc(),document[_0xb260d1(0x1ef)]('visibilitychange',function(){const _0x3b95e9=_0xb260d1;document[_0x3b95e9(0x1dd)]?_0x9fbb49():_0x5620dc();});});});
+    </script>
+
+    <div class="container-falling-images">
+            
+    </div>
+
+
+    <!-- Scroll-top -->
+    <button class="scroll-top scroll-to-target" data-target="html">
+        <i class="fas fa-angle-up"></i>
+    </button>
+    <!-- Scroll-top-end-->
+
+    <!--==============================
+	Header Area
+    ==============================-->
+    <header id="header" class="header-layout1">
+        <div id="sticky-header" class="menu-area transparent-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="menu-wrap">
+                            <nav class="menu-nav">
+                                <div class="logo">
+                                    <a href="index.html"><img src="assets/media/logo.webp" style="height: 50px;" alt="$BENJI"></a>
+                                </div>
+                                <div class="navbar-wrap main-menu d-none d-lg-flex">
+                                    <ul class="navigation">
+                                        <li class="active">
+                                            <a href="#header" class="section-link">Home</a>
+                                        </li>
+                                        <li><a href="https://x.com/benjion_sol?s=21" class="section-link">Twitter </a></li>
+                                        <li><a href="https://t.me/benjicoinportal" class="section-link">Telegram</a></li>
+                                        <li><a href="https://raydium.io/swap/?inputMint=sol&outputMint=AGwMfg4Jz7y1uVpEozktsFiq1nV7UuqtuSfewa9pUgC1" class="section-link">$Buy</a></li>
+                                        <li><a href="https://www.dextools.io/app/en/solana/pair-explorer/HDqQD6pfDyxgPGmnLJ8ig1r9uhmjTcDtLaYmLJjV9s5m?t=1725936128344" target="_blank" class="section-link">Dextools</a></li>
+                                        <li><a href="mailto:admin@BENJI.co" target="_blank" class="section-link">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <nav class="menu-box">
+                <div class="close-btn"><i class="fas fa-times"></i></div>
+                <div class="nav-logo">
+                    <a href="index.html"><img src="assets/media/logo.webp" style="height: 50px;" alt="Logo"></a>
+                </div>
+                <div class="menu-outer">
+                    <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix list-wrap">
+                        <li>
+                            <a href="https://x.com/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path
+                                        d="M10.0596 7.34522L15.8879 0.570312H14.5068L9.44607 6.45287L5.40411 0.570312H0.742188L6.85442 9.46578L0.742188 16.5703H2.12338L7.4676 10.3581L11.7362 16.5703H16.3981L10.0593 7.34522H10.0596ZM8.16787 9.54415L7.54857 8.65836L2.62104 1.61005H4.74248L8.71905 7.29827L9.33834 8.18405L14.5074 15.5779H12.386L8.16787 9.54449V9.54415Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="menu-backdrop"></div>
+        <!-- End Mobile Menu -->
+    </header>
+
+    <!--==============================
+    Hero Area
+    ==============================-->
+    <div class="hero-wrapper hero-2">
+        <div class="container">
+            <div class="hero-style1">
+                <div class="row align-items-center flex-row-reverse">
+                    <div class="col-lg-5 mt-4 mb-4">
+                        <div class="hero-thumb alltuchtopdown">
+                            <img src="assets/media/4.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h1 class="hero-title mb-4">WELCOME TO $BENJI</h1>
+                        <h2 class="hero-subtitle">$BENJI</h2>  
+                        <div class="btn-wrap">
+                            <a href="https://raydium.io/swap/?inputMint=sol&outputMint=AGwMfg4Jz7y1uVpEozktsFiq1nV7UuqtuSfewa9pUgC1" target="_blank" class="btn btn2">
+                                BUY $BENJI
+                            </a>
+                        </div>
+
+                        <button class="btn-address" id="copy-address">
+                        AGwMfg4Jz7y1uVpEozktsFiq1nV7UuqtuSfewa9pUgC1
+                        </button>
+                        <script>
+                            const $copyAddress = document.getElementById('copy-address');
+                            $copyAddress.addEventListener('click', function() {
+                                const text = $copyAddress.innerText;
+                                navigator.clipboard.writeText(text).then(function() {
+                                    alert('Address copied to clipboard: ' + text);
+                                }, function(err) {
+                                    console.error('Async: Could not copy text: ', err);
+                                });
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--======== / Hero Section ========-->
+
+
+    <!--==============================
+    Cta Area 2
+    ==============================-->
+    <div class="pt-100 pb-80 position-relative z-index-common" id="about">
+        <div class="bg-gradient-6"></div>
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-lg-11">
+                    <div class="section-title text-center mb-50">
+                        <span class="sub-title">$BENJI</span>
+                        <h2 class="title">About $BENJI</h2>
+                        <p class="sec-text fw-bolder"><i>Introducing $BENJI Token –</i></p>
+                        <p class="sec-text">$BENJI, the 'Dog
+                            .</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-info-wrap">
+                <div class="row justify-content-center d-flex">
+                    <div class="col-xl-6 col-lg-6 col-md-6 mb-4">
+                        <div class="contact-info-item">
+                            <img src="assets/media/6.jpg" class="border-radius-10" alt="img" />
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-6 mb-4">
+                        <div class="contact-info-item">
+                            <img src="assets/media/7.jpg" class="border-radius-10" alt="img" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 text-center mt-5">
+                    <div class="btn-wrap">
+                        <a href="https://raydium.io/swap/?inputMint=sol&outputMint=AGwMfg4Jz7y1uVpEozktsFiq1nV7UuqtuSfewa9pUgC1" target="_blank" class="btn btn2">
+                            BUY $BENJI
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--==============================
+    Tokenomics Area 03
+    ==============================-->
+    <div class="pt-100 pb-100 overflow-hidden position-relative z-index-common" id="feature">
+        <div class="bg-gradient-5"></div>
+        <div class="container">
+            <div class="row align-items-center flex-row-reverse">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="section-title mb-75">
+                        <span class="sub-title text-white">TOKEN DISTRIBUTION</span>
+                        <!--<h2 class="title style2">Tokenomics</h2>-->
+                        <h2 class="title">Tokenomics</h2>
+                        <p class="text-white fs-5 mt-25 mb-1">$BENJI Contract Address</p>
+                        <p class="fs-5 mt-0"><a href="https://solscan.io/" class="linkbreak" target="_blank">AGwMfg4Jz7y1uVpEozktsFiq1nV7UuqtuSfewa9pUgC1</a></p>
+                    </div>
+                    <div class="counter-grid-wrap mb-5">
+                        <div class="counter-wrap">
+                            <div class="counter-card">
+                                <h3 class="counter-card_number">
+                                    $BENJI
+                                </h3>
+                                <p class="counter-card_text">Token Ticker</p>
+                            </div>
+                        </div>
+                        <div class="counter-wrap">
+                            <div class="counter-card">
+                                <h3 class="counter-card_number">
+                                    Dog With a Purpose
+                                </h3>
+                                <p class="counter-card_text">Token Name</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="counter-grid-wrap">
+                        <div class="counter-wrap">
+                            <div class="counter-card">
+                                <h3 class="counter-card_number">
+                                    1 BILLION
+                                </h3>
+                                <p class="counter-card_text">Total Supply</p>
+                            </div>
+                        </div>
+                        <div class="counter-wrap">
+                            <div class="counter-card">
+                                <h3 class="counter-card_number">
+                                    Solana Network
+                                </h3>
+                                <p class="counter-card_text">Blockchain Platform</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 text-center">
+                    <div class="feature-thumb-wrap">
+                        <img class="feature-thumb-3-1 alltuchtopdown" src="assets/media/4.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--==============================
+    Feature Area 02
+    ==============================-->
+    <div id="whyeditmeme" class="feature-area-2 pt-100 pb-0 position-relative overflow-hidden">
+        <div class="container">
+            <div class="row justify-content-center mb-3">
+                <div class="col-xl-9 col-lg-10">
+                    <div class="section-title text-center mb-50">
+                        <span class="sub-title">$BENJI Live Price Chart, Market Cap</span>
+                        <h2 class="title">Launch on exchange later
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center market-data">
+                <div class="col-xl-5 col-lg-6 mb-4">
+                    <div class="media">
+                        <a href="https://coinmarketcap.com/currencies/" target="_blank"><img class="me-3 token-text-img" src="assets/images/coinmarketcap-logo.png" alt="CoinMarketCap"></a>
+                        <div class="media-body">
+                            <h5 class="iq-tw-4 mb-2"><a href="https://coinmarketcap.com/currencies/" target="_blank">CoinMarketCap <span></span></a></h5>
+                            <p>CoinMarketCap is the world's most-referenced price-tracking website for cryptoassets in the rapidly growing cryptocurrency space.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 mb-4">
+                    <div class="media">
+                        <a href="https://www.coingecko.com/en/coins/" target="_blank"><img class="me-3 token-text-img" src="assets/images/coingecko-logo.png" alt="CoinGecko"></a>
+                        <div class="media-body">
+                            <h5 class="iq-tw-4 mb-2"><a href="https://www.coingecko.com/en/coins/" target="_blank">CoinGecko <span> </span></a></h5>
+                            <p>CoinGecko provides a fundamental analysis of the crypto market to track price, volume, market capitalization, etc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 mb-4">
+                    <div class="media">
+                        <a href="https://www.mexc.com/exchange" target="_blank"><img class="me-3 token-text-img" src="assets/images/mexc.png" alt="Mexc"></a>
+                        <div class="media-body">
+                            <h5 class="iq-tw-4 mb-2"><a href="https://www.mexc.com/exchange" target="_blank">Mexc <span>   </span></a></h5>
+                            <p>listing after a few hours of launch</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 mb-4">
+                    <div class="media">
+                        <a href="https://www.bitmart.com/" target="_blank"><img class="me-3 token-text-img" src="assets/images/bitmart.png" alt="Bitmart"></a>
+                        <div class="media-body">
+                            <h5 class="iq-tw-4 mb-2"><a href="https://www.bitmart.com/" target="_blank">Bitmart <span> </span></a></h5>
+                            <p>listing after a few hours of launch</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--==============================
+    Feature Area 02
+    ==============================-->
+    <div id="whyeditmeme" class="feature-area-2 pt-80 pb-80 position-relative overflow-hidden"  id="blockchain">
+        <div class="feature-area-shape1">
+            <img class="feature-shape2-2 alltuchtopdown" src="assets/media/solanacoin.png" alt="img">
+        </div>
+        <div class="container">
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-xl-9 col-lg-10">
+                    <div class="section-title text-center mb-50">
+                        <span class="sub-title">CORE VALUES</span>
+                        <h2 class="title">Why $BENJI?</h2>
+                        <p class="sec-text">Owning $BENJI
+                            fees thanks to the efficiency of the Solana.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-info-wrap">
+                <div class="row justify-content-center d-flex">
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+                        <div class="contact-info-item d-flex align-items-center">
+                            <img src="assets/media/8.jpg" class="border-radius-10" alt="img" />
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+                        <div class="contact-info-item d-flex align-items-center">
+                            <img src="assets/media/9.jpg" class="border-radius-10" alt="img" />
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+                        <div class="contact-info-item d-flex align-items-center">
+                            <img src="assets/media/12.jpg" class="border-radius-10" alt="img" />
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+                        <div class="contact-info-item d-flex align-items-center">
+                            <img src="assets/media/11.jpg" class="border-radius-10" alt="img" />
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+                        <div class="contact-info-item d-flex align-items-center">
+                            <img src="assets/media/13.jpg" class="border-radius-10" alt="img" />
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+                        <div class="contact-info-item d-flex align-items-center">
+                            <img src="assets/media/14.jpg" class="border-radius-10" alt="img" />
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+                        <div class="contact-info-item d-flex align-items-center">
+                            <img src="assets/media/15.jpg" class="border-radius-10" alt="img" />
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+                        <div class="contact-info-item d-flex align-items-center">
+                            <img src="assets/media/18.jpg" class="border-radius-10" alt="img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--==============================
+        CTA Area 3
+    ==============================-->
+    <div class="pb-120 pt-80 position-relative z-index-common">
+        <div class="container">
+            <div class="cta-wrap3">
+                <div class="cta-wrap-details">
+                    <div class="section-title mb-20">
+                        <h2 class="title style2 text-title">Built on Solana</h2>
+                        <p class="sec-text text-title">The $BENJI Token is built on the Solana.</p>
+                    </div>
+                    <div class="btn-wrap">
+                        <a href="https://raydium.io/swap/?inputMint=sol&outputMint=AGwMfg4Jz7y1uVpEozktsFiq1nV7UuqtuSfewa9pUgC1" target="_blank" class="btn btn2">
+                            BUY $BENJI
+                        </a>
+                        <a href="https://raydium.io/swap/?inputMint=sol&outputMint=AGwMfg4Jz7y1uVpEozktsFiq1nV7UuqtuSfewa9pUgC1" target="_blank" class="btn btn2">
+                            HOW TO BUY 
+                        </a>
+                    </div>
+                </div>
+                <div class="cta-3-thumb alltuchtopdown movingX">
+                    <img src="assets/media/4.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--==============================
+        Footer Area
+    ==============================-->
+    <footer class="footer-wrapper footer-layout1 position-relative">
+        <div class="bg-gradient-1"></div>
+        <div class="container">
+
+            <div class="footer-menu-area">
+                <div class="row gy-4 justify-content-between align-items-center">
+                    <div class="col-xl-7 col-lg-8">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="assets/media/logo.webp" style="height: 45px;" alt="$BENJI"></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 text-lg-end text-center">
+                        <div class="social-btn justify-content-center justify-content-lg-end">
+                            <a href="https://x.com/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M10.0596 7.34522L15.8879 0.570312H14.5068L9.44607 6.45287L5.40411 0.570312H0.742188L6.85442 9.46578L0.742188 16.5703H2.12338L7.4676 10.3581L11.7362 16.5703H16.3981L10.0593 7.34522H10.0596ZM8.16787 9.54415L7.54857 8.65836L2.62104 1.61005H4.74248L8.71905 7.29827L9.33834 8.18405L14.5074 15.5779H12.386L8.16787 9.54449V9.54415Z" fill="currentColor"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-wrap text-center">
+            <div class="container">
+                <div class="row gy-3 justify-content-between align-items-center">
+                    <div class="col-lg-12 text-center">
+                        <p class="copyright-text">Join the $BENJI Movement: Educate, Share, and Meme</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--********************************
+			Code End  Here
+	******************************** -->
+
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
